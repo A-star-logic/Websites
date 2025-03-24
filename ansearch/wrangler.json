@@ -4,9 +4,9 @@
   "compatibility_date": "2025-01-01",
   "assets": {
     "directory": "./.output/public/",
-    "binding": "ASSETS",
+    "binding": "ASSETS"
   },
   "observability": {
-    "enabled": true,
-  },
+    "enabled": true
+  }
 }
