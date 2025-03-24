@@ -403,6 +403,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/workers-types@npm:^4.20250321.0":
+  version: 4.20250321.0
+  resolution: "@cloudflare/workers-types@npm:4.20250321.0"
+  checksum: 10c0/15f89a9b29e55727dc9d3c5270eb01da9fbd024eb5d7f6ea1c5437a13d5ee1263d34e8d9dd4145e9e3a274597d23d5d12cf0b43ce7c9c5138edd0782fefc417a
+  languageName: node
+  linkType: hard
+
 "@cspotcode/source-map-support@npm:0.8.1":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -2987,6 +2994,8 @@ __metadata:
   dependencies:
     "@iconify/json": "npm:^2.2.320"
     "@tailwindcss/vite": "npm:^4.0.15"
+    nitro-cloudflare-dev: "npm:^0.2.2"
+    nitropack: "npm:^2.11.7"
     nuxt: "npm:^3.16.1"
     tailwindcss: "npm:^4.0.15"
     unplugin-icons: "npm:^22.1.0"
@@ -7277,6 +7286,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nitro-cloudflare-dev@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "nitro-cloudflare-dev@npm:0.2.2"
+  dependencies:
+    consola: "npm:^3.4.0"
+    mlly: "npm:^1.7.4"
+    pkg-types: "npm:^2.1.0"
+  checksum: 10c0/e0a7eeb01e2928656b9cf82471ae117b2d47255bfc28e0d0e9db4576ed30c762555b937123a6214f03cd860ee01c194aba23612891a55d49189e8c89c16d6cf6
+  languageName: node
+  linkType: hard
+
 "nitropack@npm:^2.11.7":
   version: 2.11.7
   resolution: "nitropack@npm:2.11.7"
@@ -10796,6 +10816,7 @@ __metadata:
   resolution: "websites@workspace:."
   dependencies:
     "@ansearch/config": "npm:^0.2.0"
+    "@cloudflare/workers-types": "npm:^4.20250321.0"
     eslint: "npm:^9.23.0"
     eslint-config-prettier: "npm:^10.1.1"
     eslint-import-resolver-typescript: "npm:^4.2.2"

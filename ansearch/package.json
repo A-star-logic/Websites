@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.320",
+    "nitro-cloudflare-dev": "^0.2.2",
+    "nitropack": "^2.11.7",
     "unplugin-icons": "^22.1.0"
   }
 }

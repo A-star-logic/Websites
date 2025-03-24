@@ -1,4 +1,4 @@
-run-name: Deploy astarlogic.com
+run-name: Deploy Ansearch
 
 on:
   push:

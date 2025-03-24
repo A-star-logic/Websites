@@ -16,6 +16,7 @@
   "packageManager": "yarn@4.7.0",
   "devDependencies": {
     "@ansearch/config": "^0.2.0",
+    "@cloudflare/workers-types": "^4.20250321.0",
     "eslint": "^9.23.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-import-resolver-typescript": "^4.2.2",

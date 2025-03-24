@@ -14,5 +14,12 @@ export default defineNuxtConfig({
       strict: true, // remove trailing slashes
     },
   },
-  modules: ['unplugin-icons/nuxt'],
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+    },
+  },
+  modules: ['unplugin-icons/nuxt', 'nitro-cloudflare-dev'],
 });

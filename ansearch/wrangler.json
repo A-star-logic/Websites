@@ -1,10 +1,10 @@
 {
   "name": "ansearch-website",
   "main": "./.output/server/index.mjs",
-  "compatibility_date": "2025-01-01",
+  "compatibility_date": "2025-03-21",
   "assets": {
-    "directory": "./.output/public/",
-    "binding": "ASSETS"
+    "binding": "ASSETS",
+    "directory": "./.output/public/"
   },
   "observability": {
     "enabled": true
