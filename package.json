@@ -6,6 +6,7 @@
     "astarlogic"
   ],
   "scripts": {
+    "w:wrangler": "cd $INIT_CWD && wrangler",
     "lint": "yarn lint:eslint ; yarn lint:tsc ; yarn lint:prettier",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier . --check --config .prettierrc",
