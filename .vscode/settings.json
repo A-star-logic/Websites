@@ -10,5 +10,5 @@
     ".yarn": true,
     "**/.nuxt/": true
   },
-  "cSpell.words": ["ansearch", "Nuxt"]
+  "cSpell.words": ["ansearch", "Nuxt", "unplugin"]
 }

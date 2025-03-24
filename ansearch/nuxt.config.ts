@@ -14,4 +14,5 @@ export default defineNuxtConfig({
       strict: true, // remove trailing slashes
     },
   },
+  modules: ['unplugin-icons/nuxt'],
 });

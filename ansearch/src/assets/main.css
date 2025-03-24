@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-gradient-to-l from-amber-300 to-amber-600;
+}
+
+#__nuxt {
+  height: 100%;
+}
